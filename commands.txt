@@ -37,3 +37,24 @@ It is useful for renaming a large group of files.
 (rename 's/\.txt$/\.pdf/'*.txt) to convert all the text files into pdf files
 Not working
 11.mv command - (mv <old name><new name>) to rename a file
+
+Linux File Content Commands------
+
+12. head Command - used to display the content of a file.Displays first 10 lines of a file.
+(head <file name>)
+13. tail Command - Displays the last ten lines of the file content.It is useful for reading the error message.(tail <file name>)
+14. tac Command - Displays the file content in reverse order (from the last line).(tac <file name>)
+15. more command - This command is quite similar to cat command, as it is used to display the file content in the same way that the cat command does. The only difference is that, in case of larger files, the more command displays screenful output at a time. (more <file name>  )
+ENTER key: To scroll down page by line.
+Space bar: To move to the next page.
+b key: To move to the previous page.
+/ key: To search the string.
+16.less Command - The less command is similar to the more command. It also includes some extra features such as 'adjustment in width and height of the terminal.' Comparatively, the more command cuts the output in the width of the terminal.(less <file name>  )
+
+Linux User Commands------
+
+17. su Command - it allows access of the Linux shell to another user.(su <user name>  )
+18. id Command - used to display the user ID (UID) and group ID (GID).(id)
+19. useradd Command - used to add or remove a user on a Linux server.(useradd <username>)
+20. passwd Command - used to create and change the password for a user.(passwd <username>)
+21. groupadd Command - used to create a user group.(groupadd <group name>  )
